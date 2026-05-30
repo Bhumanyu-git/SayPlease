@@ -53,3 +53,16 @@ For example: `please time  Polite  10:22:32`
 ## Function #12: `clear`
 It clears the output terminal.  
 For example: `please clear`
+## Concept #4: Using SayPlease as an interpreter
+You can use this language for running python and javascript too with the help of functions like `python` and `javascript`.  
+## Function #13: `python`
+It helps you to run python code.  
+For example: `please python  Polite  python>>>print("Hello world!")  Hello world!`
+## Function #14: `javscript`
+It helps you to run javascript code.  
+For example: `please javascript  Polite  js>>>console.log("Hello world!")  Hello world!`
+## Concept #5: Conditionals
+SayPlease helps you to execute a task only when the provided condition is true using functions like `ifcondition` or `vifcon`. Both have similarities and differences.
+## Function #15: `ifcondition`
+It helps you to run a python code if the provided condition is true.  
+For example: `please ifcondition  Polite  Condition:3>2  True(python):print("hello world!")  hello world!`
